@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+  {% block content %}
+  <h1>Please give two numbers to be added, subtracted, multipied, and divided. </h1>
+  <br><br>
+    <form action='/response' class = "text">
+      First number: <br>
+      <input type="text" name="number1">
+      <br><br>
+       Second number: <br>
+      <input type="text" name="number2">
+      <br><br>
+      <input type="submit" id="check">
+    </form>
+    {% endblock %}
